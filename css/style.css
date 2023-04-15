@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Fredoka', sans-serif;
+}
 /*inizio header*/
 header{
     background-color: rgb(134, 189, 241);
@@ -17,7 +20,7 @@ header{
 }
 .prima-colonna{
     background-color: rgb(228, 168, 19);
-    border-style: dashed;
+    border: 2px dashed black;
     width: 250px;
     height: 50px;
     display: flex;
@@ -26,7 +29,7 @@ header{
 }
 .seconda-colonna{
     background-color: rgb(228, 168, 19);
-    border-style: dashed;
+    border: 2px dashed black;
     width: 750px;
     height: 50px;
     display: flex;
@@ -35,7 +38,7 @@ header{
 }
 .terza-colonna{
     background-color: rgb(228, 168, 19);
-    border-style: dashed;
+    border: 2px dashed black;
     width: 250px;
     height: 50px;
     display: flex;
@@ -58,6 +61,6 @@ p{
     width: 50%;
     height: 415px;
     background-color: rgb(235, 141, 235);
-    border-style: dashed;
+    border: 2px dashed black;
 }
 /*fine header*/
